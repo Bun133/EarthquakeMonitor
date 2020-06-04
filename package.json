@@ -10,7 +10,11 @@
     "https": "^1.0.0",
     "request": "^2.88.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-builder": "22.7.0",
+    "get-json": "^1.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
@@ -30,10 +34,6 @@
         ]
       }
     }
-  },
-  "devDependencies": {
-    "electron": "^9.0.0",
-    "electron-builder": "22.7.0"
   },
   "repository": {
     "type": "git",
