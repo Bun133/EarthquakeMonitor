@@ -1,0 +1,48 @@
+{
+  "name": "earthquakemonitor",
+  "version": "1.0.0",
+  "description": "EarthquakeMonitor with Node.js and Electron",
+  "main": "src/index.js",
+  "dependencies": {
+    "electron": "^9.0.2",
+    "encoding-japanese": "^1.0.30",
+    "fast-xml-parser": "^3.17.3",
+    "https": "^1.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.minato86.blenderhub",
+    "files": [
+      "!config.json"
+    ],
+    "win": {
+      "target": {
+        "target": "zip",
+        "arch": [
+          "x64",
+          "ia32"
+        ]
+      }
+    }
+  },
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-builder": "22.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bun133/EarthquakeMonitor.git"
+  },
+  "author": "Bun133",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bun133/EarthquakeMonitor/issues"
+  },
+  "homepage": "https://github.com/Bun133/EarthquakeMonitor#readme"
+}
