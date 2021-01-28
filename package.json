@@ -10,7 +10,7 @@
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "electron": "^9.0.0",
+    "electron": "^9.4.0",
     "electron-builder": "22.7.0",
     "get-json": "^1.0.1"
   },
